@@ -1,4 +1,4 @@
-package com.myroslavderevyanko.Filter;
+package com.myroslavderevyanko.filter;
 
 import javax.servlet.*;
 import java.io.IOException;

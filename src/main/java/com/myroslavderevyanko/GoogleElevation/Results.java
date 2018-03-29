@@ -1,4 +1,4 @@
-package com.myroslavderevyanko.GoogleElevation;
+package com.myroslavderevyanko.googleElevation;
 
 public class Results
 {

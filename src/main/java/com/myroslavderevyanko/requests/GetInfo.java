@@ -1,13 +1,13 @@
 package com.myroslavderevyanko.requests;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.myroslavderevyanko.GoogleElevation.Elevation;
-import com.myroslavderevyanko.GoogleGeocode.Address_components;
-import com.myroslavderevyanko.GoogleGeocode.City;
-import com.myroslavderevyanko.GoogleGeocode.Results;
-import com.myroslavderevyanko.GoogleMatrix.Elements;
-import com.myroslavderevyanko.GoogleMatrix.GoogleMatrixAnswer;
-import com.myroslavderevyanko.GoogleMatrix.Rows;
+import com.myroslavderevyanko.googleElevation.Elevation;
+import com.myroslavderevyanko.googleGeocode.Address_components;
+import com.myroslavderevyanko.googleGeocode.City;
+import com.myroslavderevyanko.googleGeocode.Results;
+import com.myroslavderevyanko.googleMatrix.Elements;
+import com.myroslavderevyanko.googleMatrix.GoogleMatrixAnswer;
+import com.myroslavderevyanko.googleMatrix.Rows;
 import com.myroslavderevyanko.restcountries.Country;
 
 import java.io.BufferedReader;

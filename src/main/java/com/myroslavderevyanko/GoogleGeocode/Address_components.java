@@ -1,4 +1,4 @@
-package com.myroslavderevyanko.GoogleGeocode;
+package com.myroslavderevyanko.googleGeocode;
 
 public class Address_components
 {

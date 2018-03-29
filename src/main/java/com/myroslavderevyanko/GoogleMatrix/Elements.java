@@ -1,4 +1,4 @@
-package com.myroslavderevyanko.GoogleMatrix;
+package com.myroslavderevyanko.googleMatrix;
 
 public class Elements
 {

@@ -1,6 +1,6 @@
 package com.myroslavderevyanko.controllers;
 
-import com.myroslavderevyanko.GoogleGeocode.City;
+import com.myroslavderevyanko.googleGeocode.City;
 import com.myroslavderevyanko.models.SimpleCity;
 import com.myroslavderevyanko.requests.GetInfo;
 import com.myroslavderevyanko.restcountries.Country;
