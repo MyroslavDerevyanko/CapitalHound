@@ -25,7 +25,7 @@ public class GetInfo
     public City getCityInfo(String city) throws IOException
     {
 
-        String urlEn = "https://maps.googleapis.com/maps/api/geocode/json?&address=" + URLEncoder.encode(city, "UTF-8" ) + "&language=en&key=AIzaSyCnMeFQeKKS3yXkmBxIXilyJ5563Os2xrU";
+        String urlEn = "https://maps.googleapis.com/maps/api/geocode/json?&address=" + URLEncoder.encode(city, "UTF-8" ) + "&AIzaSyAOKFLTkswUOmUPjfbXSmj7o0dy5YzKdnY";
         URL objEn = new URL(urlEn);
         HttpURLConnection conEn = (HttpURLConnection) objEn.openConnection();
         conEn.setRequestMethod("GET");
@@ -51,7 +51,7 @@ public class GetInfo
     {
         String distance = "";
 
-        String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + URLEncoder.encode(origins, "UTF-8") + "|&destinations=" + URLEncoder.encode(destination, "UTF-8") + "&mode=driving&language=En-en&key=AIzaSyCnMeFQeKKS3yXkmBxIXilyJ5563Os2xrU";
+        String url = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + URLEncoder.encode(origins, "UTF-8") + "|&destinations=" + URLEncoder.encode(destination, "UTF-8") + "&mode=driving&language=En-en&key=AIzaSyAOKFLTkswUOmUPjfbXSmj7o0dy5YzKdnY";
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
@@ -93,7 +93,7 @@ public class GetInfo
 
     public String getCountry(String someCityName) throws IOException
     {
-        String urlEn = "https://maps.googleapis.com/maps/api/geocode/json?&address=" + URLEncoder.encode(someCityName, "UTF-8" ) + "&language=en&key=AIzaSyCnMeFQeKKS3yXkmBxIXilyJ5563Os2xrU";
+        String urlEn = "https://maps.googleapis.com/maps/api/geocode/json?&address=" + URLEncoder.encode(someCityName, "UTF-8" ) + "&language=en&key=AIzaSyAOKFLTkswUOmUPjfbXSmj7o0dy5YzKdnY";
         URL objEn = new URL(urlEn);
         HttpURLConnection conEn = (HttpURLConnection) objEn.openConnection();
         conEn.setRequestMethod("GET");
@@ -152,7 +152,7 @@ public class GetInfo
 
     public Elevation getElevation(String lat, String lng) throws IOException
     {
-        String url ="https://maps.googleapis.com/maps/api/elevation/json?locations=" + lat +"," + lng +"&key=AIzaSyCnMeFQeKKS3yXkmBxIXilyJ5563Os2xrU";
+        String url ="https://maps.googleapis.com/maps/api/elevation/json?locations=" + lat +"," + lng +"&key=AIzaSyAOKFLTkswUOmUPjfbXSmj7o0dy5YzKdnY";
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
         con.setRequestMethod("GET");
